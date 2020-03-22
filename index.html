@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>:: NCC Ltd. ::</title>
+
+    <link rel="stylesheet" href="assets//lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+</head>
+
+<body>
+    <div class="main-header">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light custom-navbar">
+            <a class="navbar-brand" href="#"><img src="assets/images/NCC-Limited.jpg" height="80" alt="ncc-logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto custom-align">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Dashboards <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./content-pages/login.html">Account Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./content-pages/bscLocation.html">User Referances</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">More Details</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="main-content">
+        <div class="container-fluid">
+            <div class="media">
+                <div class="media-body">
+                    <h2 class="text-center text-danger mb-0"><strong>
+                            <marquee direction="left">NCC Limited</marquee>
+                        </strong></h2>
+                </div>
+                <img src="assets/images/CC-Camera.png" height="150" class="ml-3 " alt="CC-Camera">
+            </div>
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <!-- carousel-item 1 start -->
+                    <div class="carousel-item active">
+                        <div class="row form-group">
+                            <div class="col-md-4 offset-md-4">
+                                <div class="shadow-lg p-2 bg-light custom-shadow">
+                                    <div class="text-center text-danger">Cameras To Be Surveyed</div>
+                                    <div class="text-center text-success" id="mainCounter">41,254</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row form-group">
+                            <div class="col-md-4 text-center mb-2">
+                                <span class="badge badge-pill badge-primary custom-badge">Surveyed Cameras</span>
+                            </div>
+                            <div class="col-md-4 text-center mb-2">
+                                <span class="badge badge-pill badge-primary custom-badge">Verified</span>
+                            </div>
+                            <div class="col-md-4 text-center mb-2">
+                                <span class="badge badge-pill badge-primary custom-badge">Approved</span>
+                            </div>
+                        </div>
+
+                        <div class="row form-group">
+                            <div class="col-md-2 mb-2">
+                                <h3 class="badge badge-pill badge-warning mb-2 text-badge">Today</h3><br>
+                                <h3 class="badge badge-pill badge-success mb-2 text-badge" id="counter1">10,265</h3>
+                            </div>
+                            <div class="col-md-2 mb-2">
+                                <h3 class="badge badge-pill badge-warning text-badge mb-2">Cumulative</h3><br>
+                                <h3 class="badge badge-pill badge-success mb-2 text-badge" id="counter2">9,890</h3>
+                            </div>
+                            <div class="col-md-2 mb-2">
+                                <h3 class="badge badge-pill badge-warning mb-2 text-badge">Today</h3><br>
+                                <h3 class="badge badge-pill badge-success mb-2 text-badge" id="counter3">7,908</h3>
+                            </div>
+                            <div class="col-md-2 mb-2">
+                                <h3 class="badge badge-pill badge-warning mb-2 text-badge">Cumulative</h3><br>
+                                <h3 class="badge badge-pill badge-success mb-2 text-badge" id="counter4">5,987</h3>
+                            </div>
+                            <div class="col-md-2 mb-2">
+                                <h3 class="badge badge-pill badge-warning mb-2 text-badge">Today</h3><br>
+                                <h3 class="badge badge-pill badge-success mb-2 text-badge" id="counter5">3,765</h3>
+                            </div>
+                            <div class="col-md-2 mb-2">
+                                <h3 class="badge badge-pill badge-warning mb-2 text-badge">Cumulative</h3><br>
+                                <h3 class="badge badge-pill badge-success mb- text-badge" id="counter6">2,098</h3>
+                            </div>
+                        </div>
+
+                        <div class="row form-group">
+                            <div class="col-md-2 mb-2">
+                                <h3 class="badge badge-pill badge-secondary mb-2 text-badge">PLVD</h3><br>
+                                <div class="text-center">
+                                    <img src="assets/images/plvd.png" alt="PLVD" width="80" height="80">
+                                </div>
+                            </div>
+                            <div class="col-md-2 mb-2">
+                                <h3 class="badge badge-pill badge-secondary text-badge mb-2">ANPR</h3><br>
+                                <div class="text-center">
+                                    <img src="assets/images/CC-Camera.png" alt="ANPR" width="80" height="80">
+                                </div>
+                            </div>
+                            <div class="col-md-2 mb-2">
+                                <h3 class="badge badge-pill badge-secondary mb-2 text-badge">FRS</h3><br>
+                                <div class="text-center">
+                                    <img src="assets/images/CC-Camera.png" alt="FRS" width="80" height="80">
+                                </div>
+                            </div>
+                            <div class="col-md-2 mb-2">
+                                <h3 class="badge badge-pill badge-secondary mb-2 text-badge">Video Analytics
+                                </h3><br>
+                                <div class="text-center">
+                                    <img src="assets/images/plvd.png" alt="Video Analytics" width="80" height="80">
+                                </div>
+                            </div>
+                            <div class="col-md-2 mb-2">
+                                <h3 class="badge badge-pill badge-secondary mb-2 text-badge">Fixed</h3><br>
+                                <div class="text-center">
+                                    <img src="assets/images/plvd.png" alt="Fixed" width="80" height="80">
+                                </div>
+                            </div>
+                            <div class="col-md-2 mb-2">
+                                <h3 class="badge badge-pill badge-secondary mb-2 text-badge">PTZ</h3><br>
+                                <div class="text-center">
+                                    <img src="assets/images/plvd.png" alt="PTZ" width="80" height="80">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row form-group">
+                            <div class="col-md-2 mb-2">
+                                <h3 class="badge badge-pill badge-warning mb-2 text-badge">Today</h3><br>
+                                <h3 class="badge badge-pill badge-success mb-2 text-badge" id="counter7">10</h3>
+                            </div>
+                            <div class="col-md-2 mb-2">
+                                <h3 class="badge badge-pill badge-warning text-badge mb-2">Today</h3><br>
+                                <h3 class="badge badge-pill badge-success mb-2 text-badge" id="counter8">12</h3>
+                            </div>
+                            <div class="col-md-2 mb-2">
+                                <h3 class="badge badge-pill badge-warning mb-2 text-badge">Today</h3><br>
+                                <h3 class="badge badge-pill badge-success mb-2 text-badge" id="counter9">32</h3>
+                            </div>
+                            <div class="col-md-2 mb-2">
+                                <h3 class="badge badge-pill badge-warning mb-2 text-badge">Today</h3><br>
+                                <h3 class="badge badge-pill badge-success mb-2 text-badge" id="counter10">785</h3>
+                            </div>
+                            <div class="col-md-2 mb-2">
+                                <h3 class="badge badge-pill badge-warning mb-2 text-badge">Today</h3><br>
+                                <h3 class="badge badge-pill badge-success mb-2 text-badge" id="counter11">65</h3>
+                            </div>
+                            <div class="col-md-2 mb-2">
+                                <h3 class="badge badge-pill badge-warning mb-2 text-badge">Today</h3><br>
+                                <h3 class="badge badge-pill badge-success mb- text-badge" id="counter12">71</h3>
+                            </div>
+                        </div>
+
+                        <div class="row mb-5">
+                            <div class="col-md-2 mb-2">
+                                <h3 class="badge badge-pill badge-warning mb-2 text-badge">Cumulative</h3><br>
+                                <h3 class="badge badge-pill badge-success mb-2 text-badge" id="counter13">9,983</h3>
+                            </div>
+                            <div class="col-md-2 mb-2">
+                                <h3 class="badge badge-pill badge-warning text-badge mb-2">Cumulative</h3><br>
+                                <h3 class="badge badge-pill badge-success mb-2 text-badge" id="counter14">987</h3>
+                            </div>
+                            <div class="col-md-2 mb-2">
+                                <h3 class="badge badge-pill badge-warning mb-2 text-badge">Cumulative</h3><br>
+                                <h3 class="badge badge-pill badge-success mb-2 text-badge" id="counter15">10,345</h3>
+                            </div>
+                            <div class="col-md-2 mb-2">
+                                <h3 class="badge badge-pill badge-warning mb-2 text-badge">Cumulative</h3><br>
+                                <h3 class="badge badge-pill badge-success mb-2 text-badge" id="counter16">874</h3>
+                            </div>
+                            <div class="col-md-2 mb-2">
+                                <h3 class="badge badge-pill badge-warning mb-2 text-badge">Cumulative</h3><br>
+                                <h3 class="badge badge-pill badge-success mb-2 text-badge" id="counter17">90,980</h3>
+                            </div>
+                            <div class="col-md-2 mb-2">
+                                <h3 class="badge badge-pill badge-warning mb-2 text-badge">Cumulative</h3><br>
+                                <h3 class="badge badge-pill badge-success mb- text-badge" id="counter18">10,453</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- carousel-item 1 end -->
+
+                    <!-- carousel-item 2 start -->
+                    <div class="carousel-item">
+                        <div class="row form-group">
+                            <div class="col-md-4 offset-md-4">
+                                <div class="shadow-lg p-2 bg-light custom-shadow">
+                                    <div class="text-center text-danger">Work Progress Report</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row form-group">
+                            <div class="col-md-4 text-center mb-2">
+                                <span class="badge badge-pill badge-primary custom-badge">Survey Report</span>
+                            </div>
+                            <div class="col-md-4 text-center mb-2">
+                                <span class="badge badge-pill badge-primary custom-badge">Pre Cast Report</span>
+                            </div>
+                            <div class="col-md-4 text-center mb-2">
+                                <span class="badge badge-pill badge-primary custom-badge">Foundation Report
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="row form-group">
+                            <div class="col-md-2 mb-2">
+                                <h3 class="badge badge-pill badge-warning mb-2 text-badge">Surveyed</h3><br>
+                                <h3 class="badge badge-pill badge-success mb-2 text-badge" id="counter19">43,422</h3>
+                            </div>
+                            <div class="col-md-2 mb-2">
+                                <h3 class="badge badge-pill badge-warning text-badge mb-2">Approved</h3><br>
+                                <h3 class="badge badge-pill badge-success mb-2 text-badge" id="counter20">1,221</h3>
+                            </div>
+                            <div class="col-md-2 mb-2">
+                                <h3 class="badge badge-pill badge-warning mb-2 text-badge">Curing</h3><br>
+                                <h3 class="badge badge-pill badge-success mb-2 text-badge" id="counter21">13,453</h3>
+                            </div>
+                            <div class="col-md-2 mb-2">
+                                <h3 class="badge badge-pill badge-warning mb-2 text-badge">Completed</h3><br>
+                                <h3 class="badge badge-pill badge-success mb-2 text-badge" id="counter22">10,265</h3>
+                            </div>
+                            <div class="col-md-2 mb-2">
+                                <h3 class="badge badge-pill badge-warning mb-2 text-badge">Digging</h3><br>
+                                <h3 class="badge badge-pill badge-success mb-2 text-badge" id="counter23">7,543</h3>
+                            </div>
+                            <div class="col-md-2 mb-2">
+                                <h3 class="badge badge-pill badge-warning mb-2 text-badge">Precast Installed</h3><br>
+                                <h3 class="badge badge-pill badge-success mb- text-badge" id="counter24">7,53</h3>
+                            </div>
+                        </div>
+
+                        <div class="row form-group">
+                            <div class="col-md-4 text-center mb-2">
+                                <span class="badge badge-pill badge-primary custom-badge">Poles Report
+                                </span>
+                            </div>
+                            <div class="col-md-4 text-center mb-2">
+                                <span class="badge badge-pill badge-primary custom-badge">Cabling Report
+                                </span>
+                            </div>
+                            <div class="col-md-4 text-center mb-2">
+                                <span class="badge badge-pill badge-primary custom-badge">Connectivity Report
+
+                                </span>
+                            </div>
+                        </div>
+
+
+                        <div class="row form-group">
+                            <div class="col-md-2 mb-2">
+                                <h3 class="badge badge-pill badge-warning mb-2 text-badge">Poles Installed</h3><br>
+                                <h3 class="badge badge-pill badge-success mb-2 text-badge" id="counter25">7,909</h3>
+                            </div>
+                            <div class="col-md-2 mb-2">
+                                <h3 class="badge badge-pill badge-warning text-badge mb-2">Junction Box</h3><br>
+                                <h3 class="badge badge-pill badge-success mb-2 text-badge" id="counter26">9,221</h3>
+                            </div>
+                            <div class="col-md-2 mb-2">
+                                <h3 class="badge badge-pill badge-warning mb-2 text-badge">Power Connected</h3><br>
+                                <h3 class="badge badge-pill badge-success mb-2 text-badge" id="counter27">17,453</h3>
+                            </div>
+                            <div class="col-md-2 mb-2">
+                                <h3 class="badge badge-pill badge-warning mb-2 text-badge">OFC Connected</h3><br>
+                                <h3 class="badge badge-pill badge-success mb-2 text-badge" id="counter28">78,322</h3>
+                            </div>
+                            <div class="col-md-2 mb-2">
+                                <h3 class="badge badge-pill badge-warning mb-2 text-badge">Cameras Fixed</h3><br>
+                                <h3 class="badge badge-pill badge-success mb-2 text-badge" id="counter29">7,543</h3>
+                            </div>
+                            <div class="col-md-2 mb-2">
+                                <h3 class="badge badge-pill badge-warning mb-2 text-badge">POP Connected</h3><br>
+                                <h3 class="badge badge-pill badge-success mb- text-badge" id="counter30">9,953</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- carousel-item 2 end -->
+
+                    <!-- carousel-item 3 start -->
+
+                    <div class="carousel-item">
+                        <div class="row form-group">
+                            <div class="col-md-4 offset-md-4">
+                                <div class="shadow-lg p-2 bg-light custom-shadow">
+                                    <div class="text-center text-danger">UnKnown....</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row form-group">
+                            <div class="col-md-4 text-center mb-2">
+                                <span class="badge badge-pill badge-primary custom-badge">Surveyed Cameras</span>
+                            </div>
+                            <div class="col-md-4 text-center mb-2">
+                                <span class="badge badge-pill badge-primary custom-badge">Verified</span>
+                            </div>
+                            <div class="col-md-4 text-center mb-2">
+                                <span class="badge badge-pill badge-primary custom-badge">Approved</span>
+                            </div>
+                        </div>
+
+                        <div class="row form-group">
+                            <div class="col-md-2 mb-2">
+                                <h3 class="badge badge-pill badge-secondary mb-2 text-badge">PLVD</h3><br>
+                                <div class="text-center">
+                                    <img src="assets/images/plvd.png" alt="PLVD" width="80" height="80">
+                                </div>
+                            </div>
+                            <div class="col-md-2 mb-2">
+                                <h3 class="badge badge-pill badge-secondary text-badge mb-2">ANPR</h3><br>
+                                <div class="text-center">
+                                    <img src="assets/images/CC-Camera.png" alt="ANPR" width="80" height="80">
+                                </div>
+                            </div>
+                            <div class="col-md-2 mb-2">
+                                <h3 class="badge badge-pill badge-secondary mb-2 text-badge">FRS</h3><br>
+                                <div class="text-center">
+                                    <img src="assets/images/CC-Camera.png" alt="FRS" width="80" height="80">
+                                </div>
+                            </div>
+                            <div class="col-md-2 mb-2">
+                                <h3 class="badge badge-pill badge-secondary mb-2 text-badge">Video Analytics
+                                </h3><br>
+                                <div class="text-center">
+                                    <img src="assets/images/plvd.png" alt="Video Analytics" width="80" height="80">
+                                </div>
+                            </div>
+                            <div class="col-md-2 mb-2">
+                                <h3 class="badge badge-pill badge-secondary mb-2 text-badge">Fixed</h3><br>
+                                <div class="text-center">
+                                    <img src="assets/images/plvd.png" alt="Fixed" width="80" height="80">
+                                </div>
+                            </div>
+                            <div class="col-md-2 mb-2">
+                                <h3 class="badge badge-pill badge-secondary mb-2 text-badge">PTZ</h3><br>
+                                <div class="text-center">
+                                    <img src="assets/images/plvd.png" alt="PTZ" width="80" height="80">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row form-group">
+                            <div class="col-md-2 mb-2">
+                                <h3 class="badge badge-pill badge-warning mb-2 text-badge">Today</h3><br>
+                                <h3 class="badge badge-pill badge-success mb-2 text-badge">0</h3>
+                            </div>
+                            <div class="col-md-2 mb-2">
+                                <h3 class="badge badge-pill badge-warning text-badge mb-2">Today</h3><br>
+                                <h3 class="badge badge-pill badge-success mb-2 text-badge">0</h3>
+                            </div>
+                            <div class="col-md-2 mb-2">
+                                <h3 class="badge badge-pill badge-warning mb-2 text-badge">Today</h3><br>
+                                <h3 class="badge badge-pill badge-success mb-2 text-badge">0</h3>
+                            </div>
+                            <div class="col-md-2 mb-2">
+                                <h3 class="badge badge-pill badge-warning mb-2 text-badge">Today</h3><br>
+                                <h3 class="badge badge-pill badge-success mb-2 text-badge">0</h3>
+                            </div>
+                            <div class="col-md-2 mb-2">
+                                <h3 class="badge badge-pill badge-warning mb-2 text-badge">Today</h3><br>
+                                <h3 class="badge badge-pill badge-success mb-2 text-badge">0</h3>
+                            </div>
+                            <div class="col-md-2 mb-2">
+                                <h3 class="badge badge-pill badge-warning mb-2 text-badge">Today</h3><br>
+                                <h3 class="badge badge-pill badge-success mb- text-badge">0</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- carousel-item 3 end -->
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Copyrights &#169; NCC Limited</p>
+    </div>
+
+    <script src="assets/lib/jquery/jquery.min.js"></script>
+    <script src="assets/lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="assets/lib/counter-up/counter-up.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

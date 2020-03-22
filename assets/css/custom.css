@@ -1,0 +1,96 @@
+.active{
+    color: blue !important;
+    border-bottom: 1px solid blue !important;
+}
+
+.custom-navbar{
+    height: 80px;
+}
+
+.main-content{
+    margin-top: 80px;
+}
+
+.custom-badge{
+    width: 100%;
+    padding: 10px 54px;
+    font-size: large;
+    border-radius: 60px 60px 0 0;
+}
+
+.text-badge{
+    width: 100%;
+    font-size: medium;
+}
+
+.mt-100{
+    margin-top: 15%;
+}
+
+.custom-shadow{
+    border-radius: 60px 0;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.carousel-control-prev-icon{
+    color: red !important;
+}
+
+.carousel-control-prev-icon{
+    color: red !important;
+}
+
+.br-25{
+    border-radius: 25px;
+}
+
+.parsley-required{
+    color: red;
+}
+
+body{
+    background-image: url("../images/bg1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 100vh; */
+    background-position: center;
+    /* color: white; */
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#fff;
+    color: black;
+  }
+
+
+
+  @media screen and (max-width: 992px) {
+    .main-content{
+        margin-top: 93px;
+    }
+    .custom-navbar{
+        height: 93px;
+    }
+    .custom-align{
+        text-align: center;
+        background-color: #fff;
+    }
+  }
+
+  @media screen and (min-width: 10px) and (max-width:282px){
+    .main-content{
+        margin-top: 144px;
+    }
+    .custom-navbar{
+        height: 144px;
+    }
+    .custom-align{
+        text-align: center;
+        background-color: #fff;
+    }
+  }
