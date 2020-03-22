@@ -7,6 +7,32 @@
     height: 80px;
 }
 
+.link-style{
+    color: #02bb8c;
+    background: none;
+    border-color: #02bb8c;
+    border: 1px solid #02bb8c;
+    padding: 10px 50px;
+    border-radius: 25px;
+    /* text-decoration: none !important; */
+}
+
+.link-style:active{
+    color: #fff;
+    background-color: #02bb8c;
+    /* text-decoration: none !important; */
+}
+
+.link-style:hover{
+    color: #fff;
+    background-color: #02bb8c;
+    /* text-decoration: none !important; */
+}
+
+.vh-82{
+height: 82vh ;
+}
+
 .main-content{
     margin-top: 80px;
 }

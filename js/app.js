@@ -153,6 +153,88 @@ jQuery(document).ready(function ($) {
         time: 1000
     });
 
+    $('#counter31').counterUp({
+        delay: 10,
+        time: 1000
+    });
+
+
+    $('#counter32').counterUp({
+        delay: 10,
+        time: 1000
+    });
+
+    $('#counter33').counterUp({
+        delay: 10,
+        time: 1000
+    });
+
+    $('#counter34').counterUp({
+        delay: 10,
+        time: 1000
+    });
+
+    $('#counter35').counterUp({
+        delay: 10,
+        time: 1000
+    });
+
+    $('#counter36').counterUp({
+        delay: 10,
+        time: 1000
+    });
+
+
+    $('#counter37').counterUp({
+        delay: 10,
+        time: 1000
+    });
+
+    $('#counter38').counterUp({
+        delay: 10,
+        time: 1000
+    });
+
+    $('#counter39').counterUp({
+        delay: 10,
+        time: 1000
+    });
+
+    $('#counter40').counterUp({
+        delay: 10,
+        time: 1000
+    });
+
+    $('#counter41').counterUp({
+        delay: 10,
+        time: 1000
+    });
+
+    $('#counter42').counterUp({
+        delay: 10,
+        time: 1000
+    });
+
+
+    $('#counter43').counterUp({
+        delay: 10,
+        time: 1000
+    });
+
+    $('#counter44').counterUp({
+        delay: 10,
+        time: 1000
+    });
+
+    $('#counter45').counterUp({
+        delay: 10,
+        time: 1000
+    });
+
+    $('#counter46').counterUp({
+        delay: 10,
+        time: 1000
+    });
 
     $("#mainCounter").counterUp({
         delay: 10,
@@ -313,7 +395,88 @@ jQuery(document).ready(function ($) {
             time: 1000
         });
 
+        $('#counter31').counterUp({
+            delay: 10,
+            time: 1000
+        });
 
+
+        $('#counter32').counterUp({
+            delay: 10,
+            time: 1000
+        });
+
+        $('#counter33').counterUp({
+            delay: 10,
+            time: 1000
+        });
+
+        $('#counter34').counterUp({
+            delay: 10,
+            time: 1000
+        });
+
+        $('#counter35').counterUp({
+            delay: 10,
+            time: 1000
+        });
+
+        $('#counter36').counterUp({
+            delay: 10,
+            time: 1000
+        });
+
+
+        $('#counter37').counterUp({
+            delay: 10,
+            time: 1000
+        });
+
+        $('#counter38').counterUp({
+            delay: 10,
+            time: 1000
+        });
+
+        $('#counter39').counterUp({
+            delay: 10,
+            time: 1000
+        });
+
+        $('#counter40').counterUp({
+            delay: 10,
+            time: 1000
+        });
+
+        $('#counter41').counterUp({
+            delay: 10,
+            time: 1000
+        });
+
+        $('#counter42').counterUp({
+            delay: 10,
+            time: 1000
+        });
+
+
+        $('#counter43').counterUp({
+            delay: 10,
+            time: 1000
+        });
+
+        $('#counter44').counterUp({
+            delay: 10,
+            time: 1000
+        });
+
+        $('#counter45').counterUp({
+            delay: 10,
+            time: 1000
+        });
+
+        $('#counter46').counterUp({
+            delay: 10,
+            time: 1000
+        });
         $("#mainCounter").counterUp({
             delay: 10,
             time: 1000
